@@ -45,10 +45,13 @@ body {
 }
 
 .container {
+  display: flex;
+}
+
+.container {
   width: 1158px;
   margin: auto;
-  padding: 0 15px
-  display: flex;
+  padding: 0 15px;
 }
 
 .header-nav {
@@ -82,10 +85,9 @@ body {
   gap: 40px;
 }
 
-.header-menu-list-item-last {
-  margin-right: 0
+.header-menu-list-item {
+  margin-right: 40px;
 }
-
 
 .address-list {
   list-style-type: none;
