@@ -204,6 +204,10 @@ body {
   gap: 24px;
 }
 
+.section-two-menu-item {
+  width: calc((100% - 72px) / 4);
+}
+
 .sections-two-title {
   font-weight: 500;
   font-size: 20px;
