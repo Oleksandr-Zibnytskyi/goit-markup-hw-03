@@ -171,6 +171,7 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   min-width: 169px;
   display: block;
+  height: 56px;
 }
 
 .section-one-button:hover,
@@ -223,7 +224,7 @@ body {
 
 .section-three {
   background-color: #f4f4fd;
-  padding: 120px 120px;
+  padding: 120px 0;
 }
 
 .section-three-menu {
@@ -239,7 +240,7 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-transform: capitalize;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .section-three-list-container {
@@ -276,7 +277,8 @@ body {
 
 .section-four {
   background-color: #fff;
-  padding: 120px 120px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .section-four-menu {
@@ -289,6 +291,7 @@ body {
 .section-four-list-container {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .section-four-title {
@@ -298,7 +301,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .section-four-list {
@@ -327,10 +330,7 @@ body {
 
 .footer {
   background-color: #2e2f42;
-  padding-top: 101.5px;
-  padding-bottom: 100px;
-  padding-left: 0px;
-  padding-right: 0px;
+  padding: 100px 0;
 }
 
 .logo-footer {
@@ -341,7 +341,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-bottom: 17.5px;
+  margin-bottom: 16px;
   color: #4d5ae5;
   display: inline-block;
   text-decoration: none;
