@@ -85,10 +85,6 @@ body {
   gap: 40px;
 }
 
-.header-menu-list-item {
-  margin-right: 40px;
-}
-
 .address-list {
   list-style-type: none;
   display: flex;
