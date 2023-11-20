@@ -336,7 +336,19 @@ body {
   padding: 100px 0;
 }
 
-.logo-footer {
+.span-item {
+  color: #f4f4fd;
+}
+
+.footer-par {
+  line-height: 1.5;
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
+  width: 264px;
+}
+
+.logo-footer-link {
+  display: inline-block;
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
@@ -346,18 +358,5 @@ body {
   text-transform: uppercase;
   margin-bottom: 16px;
   color: #4d5ae5;
-  display: inline-block;
   text-decoration: none;
-}
-
-.span-item {
-  color: #f4f4fd;
-  display: inline-block;
-}
-
-.footer-par {
-  line-height: 1.5;
-  color: #f4f4fd;
-  letter-spacing: 0.02em;
-  width: 264px;
 }
