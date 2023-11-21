@@ -37,6 +37,14 @@ body {
   background-color: #ffffff;
 }
 
+.container {
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 /*------------------------------------------------- header ----------------------------------------------*/
 
 .page-header {
@@ -44,16 +52,8 @@ body {
   background: #fff;
 }
 
-.container {
+.header-container {
   display: flex;
-}
-
-.container {
-  width: 1158px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 .header-nav {
